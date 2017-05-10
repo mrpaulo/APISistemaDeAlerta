@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type_alert: 1
+  title: MyString
+  description: MyText
+  photo: MyString
+
+two:
+  type_alert: 1
+  title: MyString
+  description: MyText
+  photo: MyString

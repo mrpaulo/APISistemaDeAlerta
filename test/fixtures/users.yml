@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type_user: 1
+  name_user: MyString
+  phone: MyString
+  localization_user: 
+
+two:
+  type_user: 1
+  name_user: MyString
+  phone: MyString
+  localization_user: 
