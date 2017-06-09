@@ -2,10 +2,16 @@ class AlertsController < ApplicationController
   before_action :set_alert, only: [:show, :update, :destroy]
 
   # GET /alerts
-  def index
+  def index    
     @alerts = Alert.all
 
-    render json: @alerts
+    render json: @alerts, content_type: 'application/json', :callback => params[:callback]
+
+    #  if params[:callback]
+    #   format.js { render :json => @alerts, :callback => params[:callback] }
+    # else
+    #   format.json { render json: @alerts}
+    # end
   end
 
   # GET /alerts/1
